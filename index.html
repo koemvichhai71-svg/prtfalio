@@ -1,0 +1,324 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>A Responsive Portfolio Design</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./responsive.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <a href="#" class="logo">Koem <span>Vichhay</span></a>
+      <div class="menu">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+      </div>
+      <nav class="navbar">
+        <a href="#Home">home</a>
+        <a href="#Education">education</a>
+        <a href="#Skills">skills</a>
+        <a href="#Projects">projects</a>
+        <a href="#Contact">contact</a>
+      </nav>
+    </header>
+
+    <section class="home" id="Home">
+      <div class="content">
+        <h1>hi, it's <span>Koem Vichhay</span></h1>
+        <h3 class="text-animation">i'm a <span></span></h3>
+        <p>
+          A passionate Information Technology student at the National University of
+          ​​​​​​​​​Management with a strong focus on Web & Application Design. Skilled in UI/UX
+          layout design, responsive web development concepts, and office software.
+          Experienced in designing mobile app interfaces such as FreshLeaf Organics and
+          Readify. Eager to apply creative problem-solving skills to real-world web and
+          mobile design projects
+        </p>
+        <div class="icons">
+          <a href="#" target="_blank" aria-label="LinkedIn"
+            ><i class="fab fa-linkedin" aria-hidden="true"></i
+          ></a>
+          <a href="#" target="_blank" aria-label="GitHub"
+            ><i class="fab fa-github" aria-hidden="true"></i
+          ></a>
+          <a href="#" target="_blank" aria-label="Instagram"
+            ><i class="fab fa-instagram" aria-hidden="true"></i
+          ></a>
+          <a href="#" target="_blank" aria-label="Twitter"
+            ><i class="fab fa-twitter" aria-hidden="true"></i
+          ></a>
+        </div>
+        <div class="flex-btn">
+          <a href="#Contact" class="btn hire">hire</a>
+          <a href="#Contact" class="btn">contact</a>
+          <a href="assets/Koem_Vichhay_CV.pdf" download class="btn resume">
+            <i class="fa fa-download" aria-hidden="true"></i> resume
+          </a>
+        </div>
+      </div>
+      <div class="home-image">
+        <img src="images/boy.png" alt="Koem Vichhay" />
+        <span class="scanline"></span>
+      </div>
+    </section>
+
+    <section class="education" id="Education">
+      <h2 class="heading">education</h2>
+      <div class="timeline-items">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">2024</div>
+          <div class="timeline-content">
+            <h3>National University of Management (NUM)</h3>
+            <p>
+              Currently studying at the National University of Management (NUM), gaining hands-on knowledge and creative skills in web design while working on practical projects to build a strong foundation for a career in UI/UX and technology.
+            </p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">2023</div>
+          <div class="timeline-content">
+            <h3>Self-Learning & Development</h3>
+            <p>
+             Began exploring web design, UI/UX principles, and digital tools independently, laying the groundwork for future academic and technical pursuits.
+            </p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">2022</div>
+          <div class="timeline-content">
+            <h3>High School</h3>
+            <p>
+              Completed high school education at Sok An Phnom High School, building the foundational knowledge that led to pursuing further studies at NUM..
+            </p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">2021</div>
+          <div class="timeline-content">
+            <h3>Early Interest in Technology</h3>
+            <p>
+              Early Interest in Technology & Design
+              Developed a strong interest in computers, graphics, and technology, which sparked the motivation to pursue further studies in the web design field.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills" id="Skills">
+      <h2 class="heading">skills</h2>
+      <div class="box-container">
+        <div class="box">
+          <h3>HTML & CSS</h3>
+          <p>
+            Built a solid foundation in structuring and styling web pages,
+            including responsive layouts that work across screen sizes.
+          </p>
+        </div>
+        <div class="box">
+          <h3>JavaScript</h3>
+          <p>
+            Learned core programming logic and DOM manipulation to make web
+            pages interactive and dynamic.
+          </p>
+        </div>
+        <div class="box">
+          <h3>UI / UX Fundamentals</h3>
+          <p>
+            Practiced designing clean, user-friendly interfaces with attention
+            to layout, spacing, and readability.
+          </p>
+        </div>
+        <div class="box">
+          <h3>Version Control (Git)</h3>
+          <p>
+            Comfortable tracking changes, managing branches, and collaborating
+            on projects using Git and GitHub.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects" id="Projects">
+      <h2 class="heading">projects</h2>
+      <div class="project-container">
+        <article class="project-card">
+          <div class="project-icon">
+            <i class="fa fa-folder-open" aria-hidden="true"></i>
+          </div>
+          <div class="project-body">
+            <h3>Personal Portfolio Website</h3>
+            <p>
+              A responsive personal portfolio built to showcase education,
+              skills, and projects, with a custom design system and smooth
+              scroll navigation.
+            </p>
+            <div class="project-tags">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+            </div>
+            <div class="project-links">
+              <a href="#" target="_blank"
+                ><i class="fab fa-github" aria-hidden="true"></i> code</a
+              >
+              <a href="#" target="_blank"
+                ><i
+                  class="fa fa-arrow-up-right-from-square"
+                  aria-hidden="true"
+                ></i>
+                live</a
+              >
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-icon">
+            <i class="fa fa-list-check" aria-hidden="true"></i>
+          </div>
+          <div class="project-body">
+            <h3>Task Manager App</h3>
+            <p>
+              A simple task tracking app with add, edit, complete, and delete
+              functionality, built to practice JavaScript logic and local data
+              handling.
+            </p>
+            <div class="project-tags">
+              <span>JavaScript</span>
+              <span>CSS</span>
+              <span>Local Storage</span>
+            </div>
+            <div class="project-links">
+              <a href="#" target="_blank"
+                ><i class="fab fa-github" aria-hidden="true"></i> code</a
+              >
+              <a href="#" target="_blank"
+                ><i
+                  class="fa fa-arrow-up-right-from-square"
+                  aria-hidden="true"
+                ></i>
+                live</a
+              >
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-icon">
+            <i class="fa fa-cart-shopping" aria-hidden="true"></i>
+          </div>
+          <div class="project-body">
+            <h3>E-Commerce UI Concept</h3>
+            <p>
+              A front-end concept for an online store, focused on product
+              layout, cart interaction, and a clean, distraction-free checkout
+              flow.
+            </p>
+            <div class="project-tags">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>Responsive</span>
+            </div>
+            <div class="project-links">
+              <a href="#" target="_blank"
+                ><i class="fab fa-github" aria-hidden="true"></i> code</a
+              >
+              <a href="#" target="_blank"
+                ><i
+                  class="fa fa-arrow-up-right-from-square"
+                  aria-hidden="true"
+                ></i>
+                live</a
+              >
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="contact" id="Contact">
+      <h2 class="heading">contact <span>me</span></h2>
+      <div class="form-container">
+        <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+          <div class="inputs">
+            <input
+              type="text"
+              name="name"
+              placeholder="full name"
+              class="input"
+              required
+            />
+            <input
+              type="email"
+              name="email"
+              placeholder="email"
+              class="input"
+              required
+            />
+            <input
+              type="tel"
+              name="phone"
+              placeholder="phone number"
+              class="input"
+            />
+            <input
+              type="text"
+              name="subject"
+              placeholder="subject"
+              class="input"
+            />
+          </div>
+          <div class="text">
+            <textarea
+              name="message"
+              placeholder="your message"
+              required
+            ></textarea>
+            <button type="submit" class="btn">send message</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="icons">
+        <a href="#" target="_blank" aria-label="LinkedIn"
+          ><i class="fab fa-linkedin" aria-hidden="true"></i
+        ></a>
+        <a href="#" target="_blank" aria-label="GitHub"
+          ><i class="fab fa-github" aria-hidden="true"></i
+        ></a>
+        <a href="#" target="_blank" aria-label="Instagram"
+          ><i class="fab fa-instagram" aria-hidden="true"></i
+        ></a>
+        <a href="#" target="_blank" aria-label="Twitter"
+          ><i class="fab fa-twitter" aria-hidden="true"></i
+        ></a>
+      </div>
+      <nav class="navbar">
+        <a href="#Home">home</a>
+        <a href="#Education">education</a>
+        <a href="#Skills">skills</a>
+        <a href="#Projects">projects</a>
+        <a href="#Contact">contact</a>
+      </nav>
+      <div class="credit">
+        <p>
+          <i class="fa fa-copyright" aria-hidden="true"></i> Koem Vichhay
+          <span>||</span> all rights reserved-v1.2.0
+        </p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
